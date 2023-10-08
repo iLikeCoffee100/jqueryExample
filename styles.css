@@ -1,0 +1,105 @@
+/* These CSS rules apply to the <html>, <body>, and <div id="app"> HTML elements in index.html */
+html, body, #app {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+/* Continue building out the CSS styling for your Twiddler app below! We got you started by
+providing a space for you to apply styles to your app's outermost HTML element - the #app itself. */
+
+#app {
+
+  background:lightblue;
+  padding-bottom: 10000px;
+
+}
+
+.title {
+
+ background-color: rgb(104, 147, 161);
+ text-align: center;
+ color: white;
+ margin-top: 0px;
+ font-size: 70px;
+ font-style: italic;
+
+}
+
+.button {
+
+  color: rgb(112, 112, 112);
+  font-size: 25px;
+  text-align: center;
+  padding-right: 20px;
+  padding-top: 20px
+
+}
+
+.button:hover {
+
+  color: rgb(248, 248, 248);
+  cursor: pointer;
+
+}
+
+
+.tweet {
+
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  border-style: double;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom:2%;
+  margin-top: 2%;
+  padding: 20px;
+  border-radius: 100px;
+  position: relative;
+
+}
+
+.timestamp {
+
+  margin-left: 50%;
+  padding-top: 20px;
+
+}
+
+.username:hover {
+
+  text-decoration: underline;
+  text-decoration-color: white;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+
+}
+
+.username{
+
+  padding-right: 640px;
+  font-weight: bold;
+
+}
+
+#update-feed {
+
+  cursor: pointer;
+}
+
+.profile-photo {
+
+  width: 100px;
+  height: 100px;
+  padding-right: 640px;
+
+}
+
+.message {
+
+  position: absolute;
+  right: 270px;
+  top: 110px;
+
+}
